@@ -71,14 +71,14 @@ export default function LaunchPadPage() {
           <div className="flex-1 text-white space-y-6">
             <div className="inline-flex items-center gap-2 bg-primary/20 border border-primary/40 rounded-full px-4 py-1.5 text-sm font-medium text-primary-foreground">
               <Icon name="Factory" size={14} />
-              Professional Manufacturing
+              Made in China
             </div>
             <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
               Power Tools of<br />
               <span className="text-primary">the Next Generation</span>
             </h2>
             <p className="text-lg text-gray-300 max-w-md">
-              Drills, angle grinders, electric saws — professional-grade tools straight from the factory. We're opening official sales for distributors and wholesale partners soon.
+              Drills, angle grinders, electric saws — professional-grade tools manufactured in China. We're opening official sales for distributors and wholesale partners worldwide soon.
             </p>
             <div className="flex flex-wrap gap-4 pt-2">
               <div className="flex items-center gap-2 text-gray-300">
