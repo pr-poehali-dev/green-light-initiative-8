@@ -157,7 +157,7 @@ export default function LaunchPadPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { name: "Cordless Drill", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/ebc98185-8aa5-4d51-a39f-8bfd59fbe43d.jpg" },
-              { name: "Angle Grinder", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/316620fc-5ac1-4209-ab46-a69ed246667c.jpg" },
+              { name: "Angle Grinder", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/7aedb607-e669-4eda-ae74-1d1dc0531ffe.jpg" },
               { name: "Mini Chainsaw", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/18e54593-8bf4-4337-a9d9-f280b0dc5228.jpg" },
               { name: "Impact Wrench", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/8334a41b-1a15-410c-a5c2-81c45ee2b58c.jpg" },
               { name: "Mini Vacuum", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/0c9046c6-b905-4f4f-bdba-c13f91b8df60.jpg" },
