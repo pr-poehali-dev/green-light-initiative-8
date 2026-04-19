@@ -156,7 +156,7 @@ export default function LaunchPadPage() {
           <p className="text-center text-muted-foreground mb-10">Professional cordless tools — all batteries included</p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
-              { name: "Cordless Drill", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/c7a10c86-d4b9-46b5-8363-f9d49ba911d3.jpg" },
+              { name: "Cordless Drill", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/ebc98185-8aa5-4d51-a39f-8bfd59fbe43d.jpg" },
               { name: "Angle Grinder", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/75b8169a-03f3-4436-9613-bc858bc16254.jpg" },
               { name: "Mini Chainsaw", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/69b1579b-12a1-4eea-be9c-2d724dd35de5.jpg" },
               { name: "Impact Wrench", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/e5b1569f-a96d-4e26-83ec-565301bf45ce.jpg" },
