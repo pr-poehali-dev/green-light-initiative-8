@@ -49,7 +49,7 @@ export default function LaunchPadPage() {
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-2">
             <Icon name="Zap" size={24} className="text-primary-foreground" />
-            <h1 className="text-2xl font-bold tracking-tight">PowerTech</h1>
+            <h1 className="text-2xl font-bold tracking-tight">Antaophotoelectric</h1>
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#" className="hover:opacity-80 transition-opacity">О нас</a>
@@ -184,9 +184,9 @@ export default function LaunchPadPage() {
         <div className="max-w-6xl mx-auto text-center space-y-3">
           <div className="flex items-center justify-center gap-2 text-primary font-bold text-lg">
             <Icon name="Zap" size={20} />
-            PowerTech
+            Antaophotoelectric
           </div>
-          <p className="text-muted-foreground text-sm">© 2025 PowerTech. Все права защищены.</p>
+          <p className="text-muted-foreground text-sm">© 2025 Antaophotoelectric. Все права защищены.</p>
           <div className="flex justify-center space-x-6 text-sm">
             <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">Политика конфиденциальности</a>
             <a href="#" className="text-muted-foreground hover:text-secondary transition-colors">Условия использования</a>
