@@ -53,7 +53,7 @@ export default function LaunchPadPage() {
           </div>
           <nav className="hidden md:flex space-x-6">
             <a href="#" className="hover:opacity-80 transition-opacity">About</a>
-            <a href="#" className="hover:opacity-80 transition-opacity">Products</a>
+            <a href="#products" className="hover:opacity-80 transition-opacity">Products</a>
             <a href="#" className="hover:opacity-80 transition-opacity">Contact</a>
           </nav>
         </div>
@@ -145,6 +145,36 @@ export default function LaunchPadPage() {
                 Already <span className="font-bold text-primary">347</span> companies are waiting for the launch
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Products */}
+      <section id="products" className="py-16 px-6 bg-background">
+        <div className="max-w-6xl mx-auto">
+          <h3 className="text-2xl font-bold text-center text-foreground mb-2">Our Product Line</h3>
+          <p className="text-center text-muted-foreground mb-10">Professional cordless tools — all batteries included</p>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            {[
+              { name: "Cordless Drill", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/c7a10c86-d4b9-46b5-8363-f9d49ba911d3.jpg" },
+              { name: "Angle Grinder", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/7346b65f-6bde-4070-ac3e-b7cebfafffad.jpg" },
+              { name: "Mini Chainsaw", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/69b1579b-12a1-4eea-be9c-2d724dd35de5.jpg" },
+              { name: "Impact Wrench", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/e5b1569f-a96d-4e26-83ec-565301bf45ce.jpg" },
+              { name: "Mini Vacuum", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/0c9046c6-b905-4f4f-bdba-c13f91b8df60.jpg" },
+              { name: "Laser Level", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/ad360785-3f3d-4c87-a9eb-738eec4cb70e.jpg" },
+              { name: "Circular Saw", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/a69f61f9-44de-4447-b702-0441ced07076.jpg" },
+              { name: "Pressure Washer", img: "https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/3f99ec13-54f5-4452-b83d-da31957ca67a.jpg" },
+            ].map((tool) => (
+              <Card key={tool.name} className="overflow-hidden hover:shadow-lg transition-shadow">
+                <div className="aspect-square bg-gray-50 overflow-hidden">
+                  <img src={tool.img} alt={tool.name} className="w-full h-full object-cover hover:scale-105 transition-transform duration-300" />
+                </div>
+                <CardContent className="p-3 text-center">
+                  <p className="font-semibold text-sm text-foreground">{tool.name}</p>
+                  <p className="text-xs text-primary mt-1">With battery</p>
+                </CardContent>
+              </Card>
+            ))}
           </div>
         </div>
       </section>
