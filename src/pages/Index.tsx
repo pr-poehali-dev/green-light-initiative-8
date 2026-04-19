@@ -63,7 +63,7 @@ export default function LaunchPadPage() {
       <section
         className="relative py-20 px-4 bg-cover bg-center"
         style={{
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.28)), url('https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/1d90d681-f24f-4186-8f3f-7cbb06fea9db.jpg')`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.18), rgba(0,0,0,0.28)), url('https://cdn.poehali.dev/projects/d5d74ee8-8a30-4bf4-8d56-81221a90a86c/files/76031825-6e62-4e2e-81ad-e955f888b5f2.jpg')`,
         }}
       >
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
